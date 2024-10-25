@@ -1,0 +1,372 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border-bottom: 5px solid #333;
+}
+
+header h1 {
+    font-size: 2.8em;
+}
+
+header p {
+    font-size: 1.3em;
+}
+
+.resume-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: #f8f9fa;
+    color: #333;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me {
+    max-width: 800px; /* Control the width for better readability */
+    margin: 20px auto; /* Center the component */
+    padding: 20px; /* Add some padding */
+    font-family: Arial, sans-serif; /* Set a clean font */
+    font-size: large;
+    line-height: 1.6; /* Improve readability with line height */
+}
+
+.about-me p {
+    margin-bottom: 15px; /* Space between paragraphs */
+}
+
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Titles */
+.container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007bff;
+    position: relative;
+}
+
+.container h2::after {
+    content: "";
+    width: 80px;
+    height: 3px;
+    background-color: #007bff;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Education, Experience, and Publications Sections */
+#education, #experience, #publications {
+    margin-bottom: 40px;
+}
+
+#education h3, #experience h3, #publications h3 {
+    font-size: 1.6em;
+    color: #0056b3;
+}
+
+#education .education-item, 
+#experience .experience-item, 
+#publications .publication-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#education p, #experience p, #publications p {
+    color: #555;
+    margin-top: 8px;
+}
+
+#publications a {
+    display: inline-block;
+    margin-top: 8px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#publications a:hover {
+    color: #0056b3;
+}
+
+/* Bullet Points Styling */
+.bullet-points {
+    list-style-type: disc; /* Use bullet points */
+    margin: 10px 0; /* Space above and below the bullet points */
+    padding-left: 20px; /* Indent the bullet points */
+}
+
+.bullet-points li {
+    margin: 5px 0; /* Space between bullet points */
+}
+
+/* Projects Section */
+#projects .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: calc(50% - 20px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.project a:hover {
+    color: #007bff;
+}
+
+.tech-stack {
+    list-style-type: none; /* Remove default list styling */
+    margin-top: 10px; /* Space above the tech stack */
+    margin-bottom: 10px;
+    display: flex; /* Use flexbox for layout */
+    gap: 15px; /* Space between tech stack items */
+}
+
+.tech-stack li {
+    background-color: #e0e7ff; /* Light background for tech stack items */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Padding for tech stack items */
+    font-size: 14px; /* Font size for tech stack items */
+    color: #333; /* Text color */
+}
+
+/* Skills Section */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 12px;
+    justify-content: center;
+}
+
+.skills-list li {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.skills-list li:hover {
+    background-color: #0056b3;
+}
+
+/* Recommendations Section */
+#recommendations {
+    margin-top: 40px; /* Space above the section */
+    text-align: center; /* Center text */
+}
+
+.recommendations-list {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+    gap: 20px; /* Space between items */
+}
+
+.recommendation {
+    background-color: #fff; /* Background color for recommendation cards */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 90%; /* Width of the recommendation card */
+
+}
+
+.recommendation p {
+    margin: 10px 0; /* Space between paragraphs */
+}
+
+/* Link Styles */
+.recommendation a {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Link color */
+    font-weight: bold; /* Make links bold */
+}
+
+.recommendation a:hover {
+    color: #0056b3; /* Change color on hover */
+}
+
+
+
+/* Special Interests Section */
+#special-interests {
+    margin-top: 40px; 
+    text-align: center; 
+}
+
+.interests-list {
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.interests-list li {
+    background-color: #f0f4f8; 
+    border-radius: 10px; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease;
+}
+
+.interests-list li:hover {
+    background-color: #e0e7ff; 
+}
+
+/* Link Styles */
+.interests-list a {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Link color */
+    font-weight: bold; /* Make links bold */
+}
+
+.interests-list a:hover {
+    color: #0056b3; /* Change color on hover */
+}
+
+
+
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+/* Arrange contact icons in a row */
+.contact-info {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between items */
+}
+
+.contact-info li {
+    font-size: 1.2em;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info a:hover {
+    color: #007bff;
+}
+
+.contact-info i {
+    margin-right: 8px;
+    font-size: 1.5em;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 5px solid #007bff;
+    font-size: 0.9em;
+}
