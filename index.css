@@ -72,16 +72,16 @@ header p {
 }
 
 .about-me {
-    max-width: 800px; /* Control the width for better readability */
-    margin: 20px auto; /* Center the component */
-    padding: 20px; /* Add some padding */
-    font-family: Arial, sans-serif; /* Set a clean font */
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    font-family: Arial, sans-serif; 
     font-size: large;
-    line-height: 1.6; /* Improve readability with line height */
+    line-height: 1.6; 
 }
 
 .about-me p {
-    margin-bottom: 15px; /* Space between paragraphs */
+    margin-bottom: 15px; 
 }
 
 
@@ -154,13 +154,13 @@ header p {
 
 /* Bullet Points Styling */
 .bullet-points {
-    list-style-type: disc; /* Use bullet points */
-    margin: 10px 0; /* Space above and below the bullet points */
-    padding-left: 20px; /* Indent the bullet points */
+    list-style-type: disc; 
+    margin: 10px 0; 
+    padding-left: 20px;
 }
 
 .bullet-points li {
-    margin: 5px 0; /* Space between bullet points */
+    margin: 5px 0; 
 }
 
 /* Projects Section */
@@ -202,19 +202,19 @@ header p {
 }
 
 .tech-stack {
-    list-style-type: none; /* Remove default list styling */
-    margin-top: 10px; /* Space above the tech stack */
+    list-style-type: none; 
+    margin-top: 10px; 
     margin-bottom: 10px;
-    display: flex; /* Use flexbox for layout */
-    gap: 15px; /* Space between tech stack items */
+    display: flex; 
+    gap: 15px; 
 }
 
 .tech-stack li {
-    background-color: #e0e7ff; /* Light background for tech stack items */
-    border-radius: 5px; /* Rounded corners */
-    padding: 5px 10px; /* Padding for tech stack items */
-    font-size: 14px; /* Font size for tech stack items */
-    color: #333; /* Text color */
+    background-color: #e0e7ff; 
+    border-radius: 5px; 
+    padding: 5px 10px; 
+    font-size: 14px; 
+    color: #333; 
 }
 
 /* Skills Section */
@@ -241,39 +241,39 @@ header p {
 
 /* Recommendations Section */
 #recommendations {
-    margin-top: 40px; /* Space above the section */
-    text-align: center; /* Center text */
+    margin-top: 40px;
+    text-align: center; 
 }
 
 .recommendations-list {
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items */
-    gap: 20px; /* Space between items */
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
 }
 
 .recommendation {
-    background-color: #fff; /* Background color for recommendation cards */
-    border-radius: 10px; /* Rounded corners */
-    padding: 20px; /* Padding inside the cards */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    width: 90%; /* Width of the recommendation card */
+    background-color: #fff; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    width: 90%; 
 
 }
 
 .recommendation p {
-    margin: 10px 0; /* Space between paragraphs */
+    margin: 10px 0; 
 }
 
 /* Link Styles */
 .recommendation a {
-    text-decoration: none; /* Remove underline */
-    color: #007bff; /* Link color */
-    font-weight: bold; /* Make links bold */
+    text-decoration: none; 
+    color: #007bff; 
+    font-weight: bold; 
 }
 
 .recommendation a:hover {
-    color: #0056b3; /* Change color on hover */
+    color: #0056b3; 
 }
 
 
@@ -307,13 +307,13 @@ header p {
 
 /* Link Styles */
 .interests-list a {
-    text-decoration: none; /* Remove underline */
-    color: #007bff; /* Link color */
-    font-weight: bold; /* Make links bold */
+    text-decoration: none; 
+    color: #007bff; 
+    font-weight: bold;
 }
 
 .interests-list a:hover {
-    color: #0056b3; /* Change color on hover */
+    color: #0056b3; 
 }
 
 
@@ -335,7 +335,7 @@ header p {
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 30px; /* Space between items */
+    gap: 30px; 
 }
 
 .contact-info li {
